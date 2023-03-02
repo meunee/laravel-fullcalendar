@@ -1,4 +1,6 @@
-<?php namespace SmirlTech\LaravelFullcalendar;
+<?php
+
+namespace Meunee\LaravelFullcalendar;
 
 use DateTime;
 
@@ -38,5 +40,4 @@ interface Event
      * @return DateTime
      */
     public function getEnd(): DateTime;
-
 }

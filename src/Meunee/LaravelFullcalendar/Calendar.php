@@ -1,4 +1,6 @@
-<?php namespace SmirlTech\LaravelFullcalendar;
+<?php
+
+namespace Meunee\LaravelFullcalendar;
 
 use ArrayAccess;
 use DateTime;
@@ -36,12 +38,12 @@ class Calendar
             'center' => 'title',
             'right' => 'listWeek,dayGridMonth',
         ],
-        'views'=> [
-            'listWeek'=> [
-                'buttonText'=> 'Semaine'
+        'views' => [
+            'listWeek' => [
+                'buttonText' => 'Semaine'
             ],
-            'dayGridMonth'=>[
-                'buttonText'=> 'Mois',
+            'dayGridMonth' => [
+                'buttonText' => 'Mois',
             ]
         ],
         'eventLimit' => true,
@@ -145,7 +147,7 @@ class Calendar
      */
     public function getId(): string
     {
-        if ( ! empty($this->id)) {
+        if (!empty($this->id)) {
             return $this->id;
         }
 
@@ -253,7 +255,6 @@ class Calendar
         }
 
         return $json;
-
     }
 
     /**
@@ -292,5 +293,4 @@ class Calendar
 
         return str_replace($search, $replace, $json);
     }
-
 }

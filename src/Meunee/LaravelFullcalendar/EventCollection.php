@@ -1,4 +1,6 @@
-<?php namespace SmirlTech\LaravelFullcalendar;
+<?php
+
+namespace Meunee\LaravelFullcalendar;
 
 use Illuminate\Support\Collection;
 

@@ -1,4 +1,6 @@
-<?php namespace SmirlTech\LaravelFullcalendar\Facades;
+<?php
+
+namespace Meunee\LaravelFullcalendar\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

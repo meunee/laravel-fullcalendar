@@ -1,4 +1,6 @@
-<?php namespace SmirlTech\LaravelFullcalendar;
+<?php
+
+namespace Meunee\LaravelFullcalendar;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
@@ -13,7 +15,7 @@ class ServiceProvider extends BaseServiceProvider
     public function register(): void
     {
         $this->app->bind('laravel-fullcalendar', function ($app) {
-            return $app->make('SmirlTech\LaravelFullcalendar\Calendar');
+            return $app->make('Meunee\LaravelFullcalendar\Calendar');
         });
     }
 
@@ -31,6 +33,4 @@ class ServiceProvider extends BaseServiceProvider
     {
         return ['laravel-fullcalendar'];
     }
-
 }
-
