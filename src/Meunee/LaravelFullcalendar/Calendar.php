@@ -40,13 +40,13 @@ class Calendar
         ],
         'views' => [
             'listWeek' => [
-                'buttonText' => 'Semaine'
+                'buttonText' => 'List week'
             ],
             'dayGridMonth' => [
-                'buttonText' => 'Mois',
+                'buttonText' => 'Day grid month',
             ]
         ],
-        'eventLimit' => true,
+        'dayMaxEventRows' => false,
     ];
 
     /**
