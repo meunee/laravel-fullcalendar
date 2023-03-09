@@ -11,7 +11,7 @@ Or add the following to your composer.json's require section and `composer updat
 
 ```json
 "require": {
-	"meunee/laravel-fullcalendar": "~1.0.0"
+	"meunee/laravel-fullcalendar": "~1.0.1"
 }
 ```
 The provider and `Calendar` alias will be registered automatically.
